@@ -14,3 +14,6 @@
 *.png binary
 *.jpg binary
 *.ico binary
+
+# Ignore the files for merge
+README.md merge=foo
