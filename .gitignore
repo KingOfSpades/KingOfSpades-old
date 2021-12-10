@@ -15,6 +15,3 @@ vendor
 # npm dependencies
 node_modules
 package-lock.json
-
-# Adding Gemfile.lock to ignore to prevent build issues
-Gemfile.lock
