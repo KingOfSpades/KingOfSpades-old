@@ -18,14 +18,14 @@ During the last weeks of working from home I have been using the FocusTime featu
 # Overview
 The workflow is quite simple. I set a TimeTime to the time I want to focus. I use the TimeTimer as a visual aid to see my progress. I then use Alfred and quick workflow I create to tigger the RescueTime API. The source code can be found at https://github.com/KingOfSpades/FocusStarter
 
-![Focus Starter Example](../assets/images/focusStarter.gif)
+![Focus Starter Example](/assets/images/focusStarter.gif)
 
 This kicks of the following events
-![Focus Time Workflow](../assets/images/FocusFlow.png)
+![Focus Time Workflow](/assets/images/FocusFlow.png)
 
 I use a IFTTT workflow to trigger a calendar event creation for in the weekly review and I use a TimeTimer as a visual aid.
 
-![TimeTimer in Action](../assets/images/TimeTimer.jpeg)
+![TimeTimer in Action](/assets/images/TimeTimer.jpeg)
 
 # The Why
 Why am I using all this? Well the RescueTime FocusTime feature blocks all distracting websites during a session which is kind of neat. It also gives me some traceability of how productive my day has been and keeps me accountable.

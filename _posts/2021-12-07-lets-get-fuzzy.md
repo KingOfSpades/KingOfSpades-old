@@ -54,4 +54,4 @@ When invoking `fzf`in this directory you can actively search all underlying fold
 
 (tip: alias that last one to something like `fbat` or `pfzf`)
 
-![fzf with preview](../assets/images/fzf_search_preview.png)
+![fzf with preview](/assets/images/fzf_search_preview.png)

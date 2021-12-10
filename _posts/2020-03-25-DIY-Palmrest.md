@@ -16,19 +16,19 @@ With the Corona crisis in full swing (which forces us all to work from home) I d
 # Materials
 After doings some basic measurements I went to to hardware store to find some scrap woud (they somethimes offer these at local hardware store). I found a piece that fit almost perfectly and after taking a bit off I was happy
 
-![Size](../assets/images/palm1.jpeg)
+![Size](/assets/images/palm1.jpeg)
 
 # Sanding and shaping
 True to the tutorial I mapped of a simple edge and sanded it down. I also added soma anti slipping rubbers.
 
-![SandingAndShaping](../assets/images/palm2.jpeg)
+![SandingAndShaping](/assets/images/palm2.jpeg)
 
 # Finishing
 I decided to apply a bit of wood oil I had left from Ikea. It gave it a light finish and didn't make it to slick
 
-![Finishing](../assets/images/palm3.jpeg)
+![Finishing](/assets/images/palm3.jpeg)
 
 # Final Result
 Pretty happy with it
 
-![FinalResult](../assets/images/palm4.jpeg)
+![FinalResult](/assets/images/palm4.jpeg)

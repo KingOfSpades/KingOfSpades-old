@@ -25,7 +25,7 @@ You can add these URL's to any place that allows links so you can even add links
 
 Opening URL's with Alfred is easy using a custom workflow. To focus the app and make sure it's running I include the open app action in my workflow. 
 
-![Screenshot 2021-09-27 at 10.47.16](../assets/images/Screenshot 2021-09-27 at 10.47.16.png)
+![Screenshot 2021-09-27 at 10.47.16](/assets/images/Screenshot 2021-09-27 at 10.47.16.png)
 
 I use the `-` sign as a prefix to trigger the workflow. Using the list filter you can add Query's to the workflow:
 
@@ -35,4 +35,4 @@ I use the `-` sign as a prefix to trigger the workflow. Using the list filter yo
 
 A simple workflow get's a simple demo, this is how mine works. When the Keyword `-` is activated it pop's up a list of all my saved search query's. Choosing one of these will open Things3 to that list
 
-![Sep-27-2021 11-06-05](../assets/images/Sep-27-2021 11-06-05.gif)
+![Sep-27-2021 11-06-05](/assets/images/Sep-27-2021 11-06-05.gif)

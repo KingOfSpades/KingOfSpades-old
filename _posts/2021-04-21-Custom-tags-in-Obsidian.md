@@ -34,7 +34,7 @@ Using the following CSS code we can easily create the custom Tag's:
 <script src="https://gist.github.com/KingOfSpades/a7e38c6ebe8c291a559fbdc1418ef053.js"></script>
 
 This will map the CSS to the tag's and will create the following output:
-![Example Tags](../assets/images/20210421193541.png)
+![Example Tags](/assets/images/20210421193541.png)
 
 Feel free to play around with your own CSS hacks! Obsidian.md is a great tool that's easily customized.
 
