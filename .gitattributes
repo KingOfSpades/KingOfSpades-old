@@ -16,4 +16,4 @@
 *.ico binary
 
 # Ignore the files for merge
-README.md merge=ours
+README.md merge=foo
