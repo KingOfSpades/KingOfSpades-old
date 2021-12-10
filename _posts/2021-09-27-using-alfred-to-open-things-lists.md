@@ -1,8 +1,5 @@
 ---
-
-
 title: Quick open Things3 with Alfred
-
 catergories:
   - productivity
 tags:
@@ -32,7 +29,7 @@ Opening URL's with Alfred is easy using a custom workflow. To focus the app and 
 
 I use the `-` sign as a prefix to trigger the workflow. Using the list filter you can add Query's to the workflow:
 
-![image-20210928120122517](../assets/images/image-20210928120122517.png)
+![image-20210928120122517](/assets/images/image-20210928120122517.png)
 
 # Putting it together
 

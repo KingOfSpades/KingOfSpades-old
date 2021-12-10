@@ -1,8 +1,5 @@
 ---
-
-
 title:  "lets-get-fuzzy"
-author_profile: false
 catergories:
     - Shell
     - Linux
@@ -46,7 +43,7 @@ $ touch fzf_dir_{1..10}/file_{1..10}
 
 When invoking `fzf`in this directory you can actively search all underlying folders and files:
 
-![Example of fzf search](../assets/images/fzf_search.png)
+![Example of fzf search](/assets/images/fzf_search.png)
 
 # Using Preview
 
