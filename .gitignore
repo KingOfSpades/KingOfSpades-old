@@ -17,7 +17,7 @@ node_modules
 package-lock.json
 
 # Adding Gemfile.lock to ignore to prevent build issues
- Gemfile.lock
+Gemfile.lock
 
- # This is the DEV Branch so we will not add the README
- README.md
+# This is the DEV Branch so we will not add the README
+README.md
