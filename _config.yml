@@ -13,25 +13,23 @@ baseurl: ''
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Europe/Amsterdam
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: Christian's Blog                         # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Stories of /dev/null   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  Consuming API's and deploying infra since Stardate ~44895. Talk .md to me
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://KingOfSpades.github.io'
 
 github:
-  username: github_username             # change to your github username
+  username: KingOfSpades                # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
@@ -39,15 +37,15 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  name: Christian A. Benstein
   email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    # - https://twitter.com/username      # change to your twitter homepage
+    - https://github.com/KingOfSpades       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/christian-alexander-benstein-28a71848/
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
@@ -82,7 +80,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/images/bio-photo.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
