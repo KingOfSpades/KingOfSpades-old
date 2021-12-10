@@ -1,12 +1,9 @@
 ---
-
-
 title:  "Bye bye Caps Lock - Re-mapping Caps to CTRL"
-
 catergories:
-    - Windows
+  - Windows
 tags:
-    - Handy
+  - Customization
 ---
 
 HOW OFTEN DO YOU USE CAPS LOCK? Not a lot right. So let's re-map that key. In my setup I like to use the Caps Lock as 2nd CTRL key. This way I don't have to fold up my pinky to use that ow so important CTRL+C & CTRL+V.
