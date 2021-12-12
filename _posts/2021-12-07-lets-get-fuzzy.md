@@ -40,7 +40,7 @@ When invoking `fzf`in this directory you can actively search all underlying fold
 
 # Using Preview
 
-`fzf` even has a build in preview function. You can use it with `cat`or (even beter) with bat
+`fzf` even has a build in preview function. You can use it with `cat` or (even beter) with `bat`:
 
 - With `cat`: `fzf --preview 'cat {}'`
 - With `bat`: `fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'`
