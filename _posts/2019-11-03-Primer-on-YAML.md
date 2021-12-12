@@ -1,14 +1,10 @@
 ---
-
-
 title: "Primer on YAML"
-
-catergories:
-  - YAML
-  - Primer
+toc: true
+mermaid: true
+catergories: [Commandline]
 tags:
-  - Handy
-  - Howto
+  - CLI
 ---
 
 It's always good to write down the basics, rehearse the syntax and go trough the motions. So let's do that with YAML.

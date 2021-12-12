@@ -1,16 +1,10 @@
 ---
-
-
 title: "Fixing broken YUM REPO's on CentOS"
-
-catergories:
-  - CentOS 
-  - Linux
-  - YUM 
+toc: true
+mermaid: true
+catergories: [Linux]
 tags:
-    - Handy
-    - YUM
-    - CentOS
+  - CLI
 ---
 
 Imagine this
@@ -28,7 +22,6 @@ Trying other mirror.
 ```
 
 And this
-
 ```bash
 # yum update
 rpmdb: page 6849: illegal page type or format

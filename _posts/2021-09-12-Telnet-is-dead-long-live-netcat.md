@@ -1,14 +1,13 @@
 ---
-
-
 title: Using netcat to replace telnet
-
-catergories:
-  - CLI
+toc: true
+mermaid: true
+catergories: [Commandline]
 tags:
-  - commandline
-  - linux
+  - CLI
+  - Linux
 ---
+
 Any longtime computer user might be familiarity with the (ab)use of the `telnet` command to check connections and open ports. It is certainly still the first program that pops in to my mind when I want to check a network adres or port. But `telnet` was removed from Windows a long time ago and should not be installed on any \*nix system. Luckily there is a much older and beter program available.
 
 # Enter netcat

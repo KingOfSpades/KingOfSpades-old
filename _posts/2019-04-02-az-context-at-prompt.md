@@ -1,13 +1,10 @@
 ---
-
-
 title:  "Adding Az Context to PowerShell"
-
-catergories:
-    - Windows
+toc: true
+mermaid: true
+catergories: [Windows]
 tags:
-    - Handy
-    - SmallHacks
+  - Azure
 ---
 
 If you're using Az command's a lot an PowerShelling to different tenant's you probably already have Context saving turnt off. If not, you might want to run it with:

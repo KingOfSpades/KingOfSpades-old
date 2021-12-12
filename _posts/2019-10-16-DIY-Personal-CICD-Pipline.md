@@ -1,15 +1,11 @@
 ---
-
-
 title: "DIY Personal CI/CD Pipline"
-
-catergories:
+toc: true
+mermaid: true
+catergories: [Productivity]
+tags:
   - Azure
   - DevOps
-  - Docker
-tags:
-    - Handy
-    - Git
 ---
 
 Using Docker, Azure DevOps and Azure Container Instances we are going to setup a simple pipe-line that will build our image from code to Docker image, tag and push that image to a private Azure Container Registry and deploy the latest version of said container to a Azure Container Instance. I use this personally for a few small projects like my personal dashboard. I edit, run and test the code on my local machine using Docker and then commit the code my DevOps GiT repository.

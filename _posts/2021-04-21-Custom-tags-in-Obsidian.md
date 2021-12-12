@@ -1,14 +1,10 @@
 ---
-
-
 title: How to customize the appearance of tags in Obsidian
-
-catergories:
-  - Obsidian
+toc: true
+mermaid: true
+catergories: [Obsidian]
 tags:
-  - Obsidian
-  - CSS
-  - Custom
+  - Customization
 ---
 
 In this note I wil show and tell how to change the appearance of certain Tag's based on the content of the Tag using CSS

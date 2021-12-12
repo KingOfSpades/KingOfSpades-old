@@ -1,10 +1,8 @@
 ---
-
-
 title: Using Alfred and qlmarkdown to Quicklook .md files in macOS
-
-catergories:
-  - Productivity 
+toc: true
+mermaid: true
+catergories: [Productivity] 
 tags:
   - macOS
   - Alfred

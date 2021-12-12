@@ -1,14 +1,12 @@
 ---
-
-
 title: "SSH Keys and Auth - Part 1 of 3"
-
-catergories:
-  - SSH
-  - Auth
+toc: true
+mermaid: true
+catergories: [Commandline]
 tags:
-  - Handy
-  - Howto
+  - CLI
+  - Linux
+  - macOS
 ---
 
 In this 'back to basics' blog entry we're going to talk about setting up SSH keys. SSH keys are used for logging in to stuff and authorizing to other stuff (like GiT). You can create a PRIVATE PULBIC keypair and share the PUBLIC key with the world!

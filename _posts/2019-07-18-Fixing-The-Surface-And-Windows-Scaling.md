@@ -1,13 +1,10 @@
 ---
-
-
 title: "Fixing Windows scaling issues on the Surface Pro"
-
-catergories:
-  - Windows
-  - SurfacePro
+toc: true
+mermaid: true
+catergories: [Windows]
 tags:
-  - Handy
+  - Customization
 ---
 
 We all know that scaling on Windows has ... some issues. If you use a Surface Device and Surface dock's a lot you'll run in to countless situations where you need the famous `CRTL+WIN+ALT+B` shortcut [thank me later](https://superuser.com/questions/1127463/what-does-ctrlwinshiftb-do-in-windows).

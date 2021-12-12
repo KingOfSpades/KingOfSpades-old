@@ -1,14 +1,14 @@
 ---
-
-
 title: Using RescueTime and Alfred for easy focus sessions
-
-catergories:
-  - Productivity 
+toc: true
+mermaid: true
+catergories: [Productivity]
 tags:
   - RescueTime
   - Alfred
+  - macOS
 ---
+
 During the last weeks of working from home I have been using the FocusTime feature of RescueTime a lot more. I use these timeblocks (20 minutes for example) to focus in on specific tasks or to create a timebox where I can work trough a small set of problems. For this I have been using 
 - RescueTime (Premium)
 - Alfred

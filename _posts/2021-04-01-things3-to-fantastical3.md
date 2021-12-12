@@ -1,10 +1,8 @@
 ---
-
-
 title: Using AppleScript to quick add Things3 to Fantastical3
-
-catergories:
-  - Productivity 
+toc: true
+mermaid: true
+catergories: [Productivity]
 tags:
   - macOS
   - Things3
