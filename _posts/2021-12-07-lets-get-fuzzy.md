@@ -1,5 +1,5 @@
 ---
-title:  "lets-get-fuzzy"
+title:  "Let's get fuzzys"
 toc: true
 categories: [Commandline]
 ---
