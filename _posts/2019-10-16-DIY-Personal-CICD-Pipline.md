@@ -2,7 +2,7 @@
 title: "DIY Personal CI/CD Pipline"
 toc: true
 mermaid: true
-catergories: [Productivity]
+categories: [Productivity]
 tags:
   - Azure
   - DevOps

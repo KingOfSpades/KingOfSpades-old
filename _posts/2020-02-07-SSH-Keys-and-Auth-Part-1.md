@@ -2,7 +2,7 @@
 title: "SSH Keys and Auth - Part 1 of 3"
 toc: true
 mermaid: true
-catergories: [Commandline]
+categories: [Commandline]
 tags:
   - CLI
   - Linux

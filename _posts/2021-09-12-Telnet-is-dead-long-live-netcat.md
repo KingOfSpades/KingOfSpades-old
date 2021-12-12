@@ -2,7 +2,7 @@
 title: Using netcat to replace telnet
 toc: true
 mermaid: true
-catergories: [Commandline]
+categories: [Commandline]
 tags:
   - CLI
   - Linux

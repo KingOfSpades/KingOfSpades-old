@@ -2,7 +2,7 @@
 title: "Fixing Windows scaling issues on the Surface Pro"
 toc: true
 mermaid: true
-catergories: [Windows]
+categories: [Windows]
 tags:
   - Customization
 ---

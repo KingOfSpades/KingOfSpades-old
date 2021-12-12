@@ -1,8 +1,8 @@
 ---
 title:  "Bye bye Caps Lock - Re-mapping Caps to CTRL"
+categories: [Windows]
 toc: true
 mermaid: true
-catergories: [Windows]
 tags:
   - Customization
 ---

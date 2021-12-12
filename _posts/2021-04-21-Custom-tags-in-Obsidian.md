@@ -2,7 +2,7 @@
 title: How to customize the appearance of tags in Obsidian
 toc: true
 mermaid: true
-catergories: [Obsidian]
+categories: [Obsidian]
 tags:
   - Customization
 ---

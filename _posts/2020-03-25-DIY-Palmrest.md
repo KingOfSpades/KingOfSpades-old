@@ -2,7 +2,7 @@
 title: Simple DIY Wood Palmrest
 toc: true
 mermaid: true
-catergories: [Productivity]
+categories: [Productivity]
 tags:
   - Customization
 ---

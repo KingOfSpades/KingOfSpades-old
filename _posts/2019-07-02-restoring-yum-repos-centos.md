@@ -2,7 +2,7 @@
 title: "Fixing broken YUM REPO's on CentOS"
 toc: true
 mermaid: true
-catergories: [Linux]
+categories: [Linux]
 tags:
   - CLI
 ---

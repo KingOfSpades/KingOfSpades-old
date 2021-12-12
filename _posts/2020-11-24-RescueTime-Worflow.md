@@ -2,7 +2,7 @@
 title: Using RescueTime and Alfred for easy focus sessions
 toc: true
 mermaid: true
-catergories: [Productivity]
+categories: [Productivity]
 tags:
   - RescueTime
   - Alfred

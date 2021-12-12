@@ -2,7 +2,7 @@
 title: Quick open Things3 with Alfred
 toc: true
 mermaid: true
-catergories: [Productivity]
+categories: [Productivity]
 tags:
   - Things3
   - Alfred

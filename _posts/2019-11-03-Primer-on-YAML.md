@@ -2,7 +2,7 @@
 title: "Primer on YAML"
 toc: true
 mermaid: true
-catergories: [Commandline]
+categories: [Commandline]
 tags:
   - CLI
 ---

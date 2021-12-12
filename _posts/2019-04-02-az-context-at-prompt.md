@@ -2,7 +2,7 @@
 title:  "Adding Az Context to PowerShell"
 toc: true
 mermaid: true
-catergories: [Windows]
+categories: [Windows]
 tags:
   - Azure
 ---
