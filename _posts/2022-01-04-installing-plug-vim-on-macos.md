@@ -1,8 +1,8 @@
 ---
-title:  "2022-01-04-installing-plug-vim-on-macos"
+title:  "Installing vim-plug on macOS"
 tpc: true
 mermaid: true
-catergories: [Commandline]
+categories: [Commandline]
 tags: [VIM, macOS]
 ---
 
