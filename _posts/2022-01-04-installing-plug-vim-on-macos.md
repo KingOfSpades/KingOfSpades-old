@@ -1,6 +1,6 @@
 ---
 title:  "Installing vim-plug on macOS"
-tpc: true
+toc: true
 mermaid: true
 categories: [Commandline]
 tags: [VIM, macOS]
