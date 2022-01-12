@@ -3,14 +3,14 @@ title:  "Setting ConfigMaps from the oc CLI"
 toc: true
 mermaid: true
 categories: [Commandline]
-tags: [Openshift, Kubernetes]
+tags: [Openshift, Kubernetes, EX280]
 ---
-
-FYI; This blog is written for OpenShift but for most command's `oc` and `kubectl` are interchangeable. 
 
 While preparing for EX280 I learned a lot about using the CLI to configure Openshift resources. It's always great learning to configure this stuff from the CLI because it gives you so much power and (In my opinion) a lot more understanding about how things work because you need to viluazie what you are doing in your head. Also: "Writing is thinking" (Ahrens2017)[^Ahrens2017]
 
 [^Ahrens2017]: Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking: For Students, Academics and Nonfiction Book Writers_. North Charleston, SC: CreateSpace, 2017.
+
+FYI; This blog is written for OpenShift but for most command's `oc` and `kubectl` are interchangeable. 
 
 # Understanding ConfigMaps and Secrets
 In Kubernetes you can create ConfigMaps and Secrets to supply your pod's with "information". ConfigMaps and Secret's look a lot alike with the major difference at this point being that Secrets encode (not encrypt) their values in `base64`
