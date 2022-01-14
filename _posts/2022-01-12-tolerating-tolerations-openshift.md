@@ -2,7 +2,7 @@
 title:  "Taints and Tolerations - Can't Pods and Nodes just get along?"
 toc: true
 mermaid: true
-categories: [Commandline]
+categories: [EX280]
 tags: [Openshift, Kubernetes, EX280]
 ---
 

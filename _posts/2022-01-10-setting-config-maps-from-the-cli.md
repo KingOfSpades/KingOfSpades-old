@@ -2,7 +2,7 @@
 title:  "Setting ConfigMaps from the oc CLI"
 toc: true
 mermaid: true
-categories: [Commandline]
+categories: [EX280]
 tags: [Openshift, Kubernetes, EX280]
 ---
 
