@@ -1,5 +1,5 @@
 ---
-title:  "Setting ConfigMaps from the oc CLI"
+title:  "ConfigMaps - Setting ConfigMaps from the oc CLI"
 toc: true
 mermaid: true
 categories: [EX280]
