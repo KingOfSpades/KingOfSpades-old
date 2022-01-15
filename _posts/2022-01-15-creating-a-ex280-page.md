@@ -49,7 +49,7 @@ tabs:
 Next up I created a page in `_tabs` with some content explaining what the page was about. 
 
 ### Dynamically filling the page
-Last up was creating the overview of my [EX280](categories/ex280/) posts on this new page. 
+Last up was creating the overview of my [EX280](/categories/ex280/) posts on this new page. 
 I did this using and modifying the following code:
 
 ```js
@@ -86,6 +86,6 @@ The most important this is the selector of the category: `site.categories["EX280
 
 
 # Wrapping up
-So that's it. At the time of writing I have the first two EX280 post's up but I have planed a few more. Check out the page at https://blog.benstein.nl/ex280/
+So that's it. At the time of writing I have the first two EX280 post's up but I have planed a few more. Check out the page at [https://blog.benstein.nl/ex280/](https://blog.benstein.nl/ex280/)
 
 [^Ahrens2017]: Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking: For Students, Academics and Nonfiction Book Writers_. North Charleston, SC: CreateSpace, 2017.
