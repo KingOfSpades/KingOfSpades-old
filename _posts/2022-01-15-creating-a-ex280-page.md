@@ -52,7 +52,7 @@ Next up I created a page in `_tabs` with some content explaining what the page w
 Last up was creating the overview of my [EX280](categories/ex280/) posts on this new page. 
 I did this using and modifying the following code:
 
-```code
+```js
 <div id="page-category">
   <h1 class="pl-lg-2">
     <i class="far fa-folder-open fa-fw text-muted"></i>
@@ -74,15 +74,16 @@ I did this using and modifying the following code:
 </div>
 ```
 
-The most importent this is the selector of the category: ` site.categories["EX280"] `. if you wanted to simply list a blog of you custom category (let's call the example category `foo`) you could use:
+The most important this is the selector of the category: `site.categories["EX280"]`. if you wanted to simply list a blog of you custom category (let's call the example category `foo`) you could use:
 
-```code
-    {% for post in site.categories["foo"] %}
-    <li">
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
+```html
+  {% for post in site.categories["foo"] %}
+  <li">
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
 ```
+
 
 # Wrapping up
 So that's it. At the time of writing I have the first two EX280 post's up but I have planed a few more. Check out the page at https://blog.benstein.nl/ex280/
