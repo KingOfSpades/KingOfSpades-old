@@ -232,4 +232,4 @@ lrwxrwxrwx. 1 root root        16 Jan 11 09:40 users.txt -> ..data/users.txt
 
 # Wrapping up
 
-So that's it for now. As you can see we can use ConfigMap's to supply pods with different kinds of information. We can add ENV data and provide files to the pods using a ConfigMap. You can use almost the same commands to add the data using Secrets but I'll cover that in another blog.
+So that's it for now. As you can see we can use ConfigMap's to supply pods with different kinds of information. We can add ENV data and provide files to the pods using a ConfigMap. You can use almost the same commands to add the data using Secrets but ~~I'll cover that in another blog~~ you can read about that here [https://blog.benstein.nl/posts/create-and-use-secrets-openshift/](https://blog.benstein.nl/posts/create-and-use-secrets-openshift/).
