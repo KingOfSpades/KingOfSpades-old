@@ -93,7 +93,9 @@ $ oc create secret generic \
 
 As an example:
 ```bash
-$ oc create secret generic test-secret-literal --from-literal password=encoded_secret secret/test-secret-literal created
+$ oc create secret generic test-secret-literal \
+--from-literal password=encoded_secret 
+secret/test-secret-literal created
 ```
 
 ### From File
