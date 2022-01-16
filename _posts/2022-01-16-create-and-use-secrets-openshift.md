@@ -144,6 +144,33 @@ $ oc rsh demoapp-557f47dccb-2gzvp bash
 PASSWORD=encoded_secret
 ```
 
+### Using a prefix
+You can also prefix your secrets in the pod using the `--prefix` option. This will add a prefix like `mysql_` or `our_prefix_` to all the key's that are being added. Tis can be quite handy for example when you want to use the `mysql` app because that app expects all values to be prefixed. 
+
+As an example, we will create a secret from-literal and then add it with a prefix:
+```bash
+$ oc create secret generic prefix-example \
+  --from-literal key=a_value
+secret/prefix-example created
+```
+
+And then we add it with the `--prefix` option:
+```bash
+$ oc set env deployment/demoapp \
+  --from secret/prefix-example \
+  --prefix our_prefix_ \
+deployment.extensions/demoapp updated
+```
+
+Now, when we enter the pod and echo the ENV variables we will see the `key` being prefixed:
+```bash
+$ oc get pods -o name
+pod/demoapp-6c9b77c-dw4c2
+$ oc rsh pod/demoapp-6c9b77c-dw4c2 bash
+(pod) $ env | grep -i 'key'
+our_prefix_KEY=a_value
+```
+
 ### Secret as file
 <div markdown="span" class="alert alert-danger" role="alert"><i class="fa fa-exclamation-circle"></i> <b>Warning:</b> Mounting a volume on path that already exists on a pod  will make all files in that directory inaccessible
 </div>
