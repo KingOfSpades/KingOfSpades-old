@@ -151,11 +151,11 @@ PASSWORD=encoded_secret
 To create a volume that will hold the secret we use the `oc set volume` command:
 ```bash
 $ oc set volume \
-> deployment/demoapp \
-> --add \
-> --type secret \
-> --mount-path /etc/secret \
-> --secret-name test-secret-literal
+  deployment/demoapp \
+  --add \
+  --type secret \
+  --mount-path /etc/secret \
+  --secret-name test-secret-literal
 info: Generated volume name: volume-zjmsq
 deployment.extensions/demoapp volume updated 
 ```
