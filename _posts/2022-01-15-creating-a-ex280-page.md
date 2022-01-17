@@ -76,14 +76,15 @@ I did this using and modifying the following code:
 
 The most important this is the selector of the category: `site.categories["EX280"]`. if you wanted to simply list a blog of you custom category (let's call the example category `foo`) you could use:
 
-```html
+{% raw %}
+```js
   {% for post in site.categories["foo"] %}
   <li">
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
   </li>
   {% endfor %}
 ```
-
+{% endraw %}
 
 # Wrapping up
 So that's it. At the time of writing I have the first two EX280 post's up but I have planed a few more. Check out the page at [https://blog.benstein.nl/ex280/](https://blog.benstein.nl/ex280/)
