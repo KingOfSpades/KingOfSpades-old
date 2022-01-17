@@ -30,7 +30,7 @@ tags: [EX280, Study]
 ```
 
 ## Creating a tab
-Next up I created a tab in my Jekyll locals file, you can see that over here: https://github.com/KingOfSpades/KingOfSpades/blob/main/_data/locales/en.yml
+Next up I created a tab in my Jekyll locals file, you can see that over here. The locals file for this blog is located at [`_data/locales`](https://github.com/KingOfSpades/KingOfSpades/blob/main/_data/locales/en.yml).
 
 ```yaml
 ....
@@ -46,7 +46,7 @@ tabs:
 ```
 
 ## Creating the page
-Next up I created a page in `_tabs` with some content explaining what the page was about. 
+Next up I created a page in `_tabs` with some content explaining what the page was about. It's the page you are now viewing and it's located at [`_tabs`](https://github.com/KingOfSpades/KingOfSpades/blob/main/_tabs/ex280.md)
 
 ### Dynamically filling the page
 Last up was creating the overview of my [EX280](/categories/ex280/) posts on this new page. 
