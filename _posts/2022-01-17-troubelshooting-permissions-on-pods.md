@@ -33,7 +33,7 @@ One of the things that Openshift takes care of (in comparison with the out-of-th
 
 # SCC's and SA's
 SCC? SA? What do you mean? Let me (try) to explain:
-- **SCC:** Security Context Constrains. A SCC is used to provide acces to a certain resource like: ==anyuid== (which allows the pod to run under any UID), ==hostaccess== (which gives the pod host acces) and ==hostnetwork== (which, well I'll let you guess that one yourself)
+- **SCC:** Security Context Constrains. A SCC is used to provide access to a certain resource like: `anyuid` (which allows the pod to run under any UID), `hostaccess` (which gives the pod host access) and `hostnetwork` (which, well I'll let you guess that one yourself)
   
   To see all SCCs that are available in you cluster you can use:
     ```bash
