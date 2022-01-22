@@ -1,5 +1,5 @@
 ---
-title:  "ServiceAccounts and SCCs - Running pods wiht more persmissions"
+title:  "ServiceAccounts and SCCs - Running pods with more permission's"
 toc: true
 mermaid: true
 categories: [EX280]
