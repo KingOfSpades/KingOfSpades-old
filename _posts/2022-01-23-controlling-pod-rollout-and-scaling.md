@@ -15,6 +15,14 @@ This post is gonna be a bit bigger broader then what is requested on the [EX280 
 Now, apart from the scaling being an exam objective it's really handy to know how to scale pods and how to control the rollout of deployments. This is certainly something I use almost on a daily basis when operating a container cluster. So, let's go!
 
 # What even is a "Deployment"
+
+When we use `oc new-app` we are creating a `Deployment` that sets up a `ReplicaSet` which in turn starts te pods. 
+
+```mermaid
+graph LR
+    Deployment --> |Manages| ReplicaSet--> |Manages| Pods
+```
+
 Let's have a look at the options.
 
 ## Deployment or DeploymentConfig
@@ -120,7 +128,7 @@ deploymentconfig.apps.openshift.io/deploymentconfig-app rolled back
 
 ## Further options
 There are allot of other options you can use with `oc rollout`. Have a look at the help prompt:
-```bash
+```yaml
 $ oc rollout -h
 Start a new rollout, view its status or history, rollback to a previous revision of your app.
 
