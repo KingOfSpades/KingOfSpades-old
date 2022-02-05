@@ -4,9 +4,9 @@ toc: true
 mermaid: true
 categories: [Productivity]
 tags:
-  - macOS
-  - Things3
-  - Fantastical
+  - macos
+  - things3
+  - fantastical
 ---
 Calendar blocking (the process of marking of pieces of time in your calendar to work on a given task) can be a real productivity booster. Not only does it help you in planning out your day it also creates a visible representation of what you have done in a week.
 

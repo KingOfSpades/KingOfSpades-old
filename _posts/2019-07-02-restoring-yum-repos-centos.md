@@ -4,7 +4,7 @@ toc: true
 mermaid: true
 categories: [Linux]
 tags:
-  - CLI
+  - cli
 ---
 
 Imagine this

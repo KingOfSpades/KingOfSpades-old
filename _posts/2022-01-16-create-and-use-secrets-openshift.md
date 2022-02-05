@@ -3,7 +3,7 @@ title:  "Creating and Using Secrets in OpenShift"
 toc: true
 mermaid: true
 categories: [EX280]
-tags: [OpenShift, Kubernetes, EX280]
+tags: [openshift, kubernetes, ex280]
 ---
 
 Creating Secrets ([like creating ConfigMaps](https://blog.benstein.nl/posts/setting-config-maps-from-the-cli/)) is a vital part of Managing OpenShift workloads and is an exam objectives of the [EX280 exam](https://blog.benstein.nl/ex280/). Knowing how they work and how to configure them (from the command-line) will give you a better understanding of Secrets.

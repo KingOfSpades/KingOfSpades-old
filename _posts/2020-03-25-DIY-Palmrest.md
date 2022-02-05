@@ -4,7 +4,7 @@ toc: true
 mermaid: true
 categories: [Productivity]
 tags:
-  - Customization
+  - customization
 ---
 
 With the Corona crisis in full swing (which forces us all to work from home) I decided I needed a palm rest for my 60% AnnePro2. Not being willing to shell out 20-40 dollars on a plastic one that would ship next week I decided to take to the internet and some good old handy work. Being inspired by [https://medium.com/@vveleva/diy-free-ish-wooden-keyboard-wrist-rest-8b902a7f6d26] I decided to give it a try.

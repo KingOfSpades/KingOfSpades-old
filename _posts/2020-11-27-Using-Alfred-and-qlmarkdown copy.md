@@ -4,8 +4,8 @@ toc: true
 mermaid: true
 categories: [Productivity] 
 tags:
-  - macOS
-  - Alfred
+  - macos
+  - alfred
 ---
 I have been using [Alfred](https://www.alfredapp.com/) more and more during the past months and I've been looking for a quick way to view little snippets of information with it. I use a few 'cheat sheets' for commands and application I use where I'm not always sure of the right command or syntax.
 

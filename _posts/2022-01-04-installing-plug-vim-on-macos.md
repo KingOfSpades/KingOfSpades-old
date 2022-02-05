@@ -3,7 +3,7 @@ title:  "Installing vim-plug on macOS"
 toc: true
 mermaid: true
 categories: [Commandline]
-tags: [VIM, macOS]
+tags: [vim, macos]
 ---
 
 `vim-plug` is a VIM plug-in manager to install themes and other plug-ins in VIM. It's the most populair one at the moment.

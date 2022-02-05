@@ -4,9 +4,9 @@ toc: true
 mermaid: true
 categories: [Commandline]
 tags:
-  - CLI
-  - Linux
-  - macOS
+  - cli
+  - linux
+  - macos
 ---
 
 In this 'back to basics' blog entry we're going to talk about setting up SSH keys. SSH keys are used for logging in to stuff and authorizing to other stuff (like GiT). You can create a PRIVATE PULBIC keypair and share the PUBLIC key with the world!

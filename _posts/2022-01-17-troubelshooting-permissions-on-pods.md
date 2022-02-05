@@ -3,7 +3,7 @@ title:  "ServiceAccounts and SCCs - Running pods with more permission's"
 toc: true
 mermaid: true
 categories: [EX280]
-tags: [OpenShift, Kubernetes, EX280]
+tags: [openshift, kubernetes, ex280]
 ---
 
 In this blog we will take a look at SCC permissions that are needed to run a pod with escalated permissions and how to use a serviceaccount (`sa`) to run such a pod or deployment.

@@ -4,9 +4,9 @@ toc: true
 mermaid: true
 categories: [Productivity]
 tags:
-  - RescueTime
-  - Alfred
-  - macOS
+  - rescuetime
+  - alfred
+  - macos
 ---
 
 During the last weeks of working from home I have been using the FocusTime feature of RescueTime a lot more. I use these timeblocks (20 minutes for example) to focus in on specific tasks or to create a timebox where I can work trough a small set of problems. For this I have been using 

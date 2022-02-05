@@ -4,7 +4,8 @@ toc: true
 mermaid: true
 categories: [Commandline]
 tags:
-  - CLI
+  - cli
+  - yaml
 ---
 
 It's always good to write down the basics, rehearse the syntax and go trough the motions. So let's do that with YAML.

@@ -3,7 +3,7 @@ title:  "Taints and Tolerations - Can't Pods and Nodes just get along?"
 toc: true
 mermaid: true
 categories: [EX280]
-tags: [Openshift, Kubernetes, EX280]
+tags: [openshift, kubernetes, ex280]
 ---
 
 During my study for [EX280](https://www.redhat.com/en/services/training/ex280-red-hat-certified-specialist-in-openshift-administration-exam) I found Taints and Tolerations very hard to understand. This is because Taints and Tolerations flip the scheduling of pods the other way around. What I mean by this is the following. Traditionally you would specify on a server what the server would run and what not. But in OpenShift this is flipped around. Instead of creating a list on a Server that allows or disallows apps to run we "taint" the node wit a `key=value` pair and a `effect` and let the scheduler sort out which pods are assigned to the node. How do we get a specifiek pod to run on a "tainted" node? We do this by "tolerating" the taint. For example; If we would taint a node with the following `location:westus` we could let a pod tolerate that this node is running at that location.

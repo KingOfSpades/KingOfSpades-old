@@ -4,9 +4,9 @@ toc: true
 mermaid: true
 categories: [Productivity]
 tags:
-  - Things3
-  - Alfred
-  - macOS
+  - things3
+  - alfred
+  - macos
 ---
 In my daily workflow I have found that when using different tools and systems with each other removing friction can be key. This is not a original insight or even a leap of the imagination but I do find myself eliminating friction in workflows in new ways. One of those ways I recently Implemented is to use [Alfred](https://www.alfredapp.com) on the Mac to quickly jump to lists or filter in my preferred ToDo app [Things3](https://culturedcode.com/things/). 
 

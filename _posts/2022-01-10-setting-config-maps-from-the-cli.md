@@ -3,7 +3,7 @@ title:  "ConfigMaps - Setting ConfigMaps from the oc CLI"
 toc: true
 mermaid: true
 categories: [EX280]
-tags: [Openshift, Kubernetes, EX280]
+tags: [openshift, kubernetes, ex280]
 ---
 
 While preparing for EX280 I learned a lot about using the CLI to configure Openshift resources. It's always great learning to configure this stuff from the CLI because it gives you so much power and (In my opinion) a lot more understanding about how things work because you need to viluazie what you are doing in your head. Also: "Writing is thinking" (Ahrens2017)[^Ahrens2017]

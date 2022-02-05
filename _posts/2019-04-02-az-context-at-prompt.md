@@ -4,7 +4,7 @@ toc: true
 mermaid: true
 categories: [Windows]
 tags:
-  - Azure
+  - azure
 ---
 
 If you're using Az command's a lot an PowerShelling to different tenant's you probably already have Context saving turnt off. If not, you might want to run it with:

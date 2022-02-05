@@ -4,7 +4,7 @@ toc: true
 mermaid: true
 categories: [Obsidian]
 tags:
-  - Customization
+  - customization
 ---
 
 In this note I wil show and tell how to change the appearance of certain Tag's based on the content of the Tag using CSS

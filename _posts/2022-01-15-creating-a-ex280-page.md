@@ -3,7 +3,7 @@ title: "Creating my EX280 page on Jekyll"
 toc: true
 mermaid: true
 categories: [Jekyll]
-tags: [EX280, Study]
+tags: [ex280, study]
 ---
 
 As you might have notices I use Jekyll for this blog hosted on GitHub. I might do a post later on how I use it and how I set it up. For now, all you need to know is that Jekyll turns `.md`(markdown) file in to a blog. This happens using GitHub actions and builds my blog from source when I commit to main. 
