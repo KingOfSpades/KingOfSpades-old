@@ -27,7 +27,7 @@ let g:airline_theme='onehalfdark'
 
 Now, this is a great basis theme but it uses a custom background color which does not match the color of my iTerm using "Solarized":
 
-![Vim with blue border](../assets/images/iterm-vim-20220208171856.png)
+![Vim with blue border](/assets/images/iterm-vim-20220208171856.png)
 
 Notice the blue bar around the edges? Let's take care of this.
 
@@ -37,16 +37,16 @@ iTerm2 has some amazing features. If you're running a Mac check it out! I will u
 ## Creating a profile
 I'm gonna create a custom profile called "VIM" and set the background color to the same color used by onehalfdark. That's `48,48,48`:
 
-![Create iTerm profile](../assets/images/iterm-vim-20220208172444.png)
+![Create iTerm profile](/assets/images/iterm-vim-20220208172444.png)
 
 ## Auto switching
 Now, remember, for this part the shell integrations will need to be installed. We will add a auto-switch condition on the *Advanced* tab. Hint: These settings seem to be applied when you closed the preferences screen. So, if you're testing keep this in mind.
 
 To switch create the trigger `&Vim` (the capital is important!!!):
-![Setting the switch trigger](../assets/images/iterm-vim-20220208172740.png)
+![Setting the switch trigger](/assets/images/iterm-vim-20220208172740.png)
 
 Now, when you enter Vim you should see the switching taking place:
 
- ![Automatic switching](../assets/images/iterm-vim-20220208172839.png)
+ ![Automatic switching](/assets/images/iterm-vim-20220208172839.png)
 
  And that's it! To be honest I googled my way up and down because I was not able to get this to work! The issue in the end was that I was using the trigger `&vim` instead of `&Vim`. I really hope someone out there that runs in to the same issue will find this post!
