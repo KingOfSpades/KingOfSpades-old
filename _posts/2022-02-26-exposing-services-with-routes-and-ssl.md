@@ -100,8 +100,9 @@ We will now move on to some examples, we will:
 1. Create a route using `expose` to create our route on `http`
 2. We will create a safe edge route using a SSL certificate
 
-<div markdown="span" class="alert alert-info" role="alert"><i class="fa fa-exclamation-circle"></i> <b>Info:</b> You can find instructions on how to create a Self Signed Certificate [here](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/4/html/system_administration_guide/apache_http_secure_server_configuration-creating_a_self_signed_certificate) 
-</div>
+> You can find instructions on how to create a Self Signed Certificate [here](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/4/html/system_administration_guide/apache_http_secure_server_configuration-creating_a_self_signed_certificate) 
+{: .prompt-tip }
+
 
 ## Creating a route
 We will create a route called `unsecure-route` on our app called `unsecure-app` in the namespace: `this-is-insecure`. The route will be `insecure-app-this-is-insecure.apps-crc.testing` because we are on CRC. Let's get started:
