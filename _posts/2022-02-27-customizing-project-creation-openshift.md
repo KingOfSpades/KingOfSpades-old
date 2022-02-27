@@ -1,5 +1,5 @@
 ---
-title:  "Controlling Ingress with Openshift Network Policy's"
+title:  "Configuring default Project creation in Openshift"
 date: 2022-02-27
 toc: true
 mermaid: true
