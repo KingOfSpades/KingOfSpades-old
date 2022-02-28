@@ -137,6 +137,36 @@ NAME                                    CREATED AT
 template-test-project-resource-limits   2022-02-27T19:38:12Z
 ```
 
+# Disabling project self-provisioning
+Letting users create new projects is a main principle of the DevOps setup of any cluster. There might however be situations where you don't want users to create their own projects. You could enforce project creation with a GitOps pipeline and ensure that no rouge projects are created from the CLI or web-interface.
+
+## Patching the self-provisioner role
+By default all authenticated uses are able to create new projects. To disable this we can patch this binding with:
+
+```bash
+$ oc patch clusterrolebinding.rbac self-provisioners -p '{"subjects": null}'
+```
+
+After this, users can no longer create projects:
+```bash
+$ oc new-project test-project
+Error from server (Forbidden): You may not request a new project via this API.
+```
+
+> **Auto update:** This patching will work until the cluster is updated. To make this permanent follow the instructions in the [RedHat Openshift documentation](https://docs.openshift.com/container-platform/4.6/applications/projects/configuring-project-creation.html)
+{: .prompt-tip }
+
+## Creating a provisioning role
+In certain scenarios you might still want some users to create projects. All users with the clusterolebinding `cluster-admin` can still create projects. For users with less privileges we will create a group `ProjectCreators`:
+
+```bash
+$ oc adm groups new ProjectCreators
+$ oc adm policy add-cluster-role-to-group self-provisioner ProjectCreators
+$ oc adm groups add-users ProjectCreators Jim
+```
+
+Now all members of the group can create projects.
+
 # Wrapping up
 This was a really simple demo of changing the default project template to something that fits our needs better.
 
