@@ -19,7 +19,7 @@ I won't explain fully why and what rootless means in general but will focus on t
 So what are Namespaces? A namespace is a feature of the Linux kernel that allows you to segment resources [^Wiki2022]. All things that make up a running system or proces are at hom in a Namespace. You'll find Proces ID's (PID) in there as well as mounts and user ID's (UID).
 Simply said, a Namespace is a organisational container to partition resources in. Now, your Linux base system has a great way of orchestrating all these different resources based on their unique ID's and maps proces ID's that are spawned inside a container back to the host system so that the stuff that needs running (the proceses that make up the containers) can actually get resources and stay separated from each other. 
 
-[^Wiki2020]: https://en.wikipedia.org/wiki/Linux_namespaces
+[^Wiki2022]: https://en.wikipedia.org/wiki/Linux_namespaces
 
 So, when we are talking about container technology and containers being "contained" we are actually talking about this awesome namespace feature.
 
