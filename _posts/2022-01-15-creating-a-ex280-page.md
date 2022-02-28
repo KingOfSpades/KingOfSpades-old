@@ -18,7 +18,7 @@ It was then that I thought back on something I red recently about learning:
 So I decided that I would do some write ups on the core concepts that you need to know for EX280. I also thought It might warrant a special page on my blog to find it easily. 
 
 # How
-I started by creating a new categorie in Jekyll. This is simply done by using setting a new categorie in the [front matter](https://assemble.io/docs/YAML-front-matter.html) of a markdown file:
+I started by creating a new category in Jekyll. This is simply done by using setting a new category in the [front matter](https://assemble.io/docs/YAML-front-matter.html) of a markdown file:
 
 As an example, this is the front matter of this post:
 ```yaml
@@ -88,5 +88,7 @@ The most important this is the selector of the category: `site.categories["EX280
 
 # Wrapping up
 So that's it. At the time of writing I have the first two EX280 post's up but I have planed a few more. Check out the page at [https://blog.benstein.nl/ex280/](https://blog.benstein.nl/ex280/)
+
+**Update:** It paid of. I passed the exam on my second try with 262/300 points.
 
 [^Ahrens2017]: Ahrens, Sönke. _How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking: For Students, Academics and Nonfiction Book Writers_. North Charleston, SC: CreateSpace, 2017.
