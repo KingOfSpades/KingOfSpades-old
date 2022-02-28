@@ -16,8 +16,8 @@ I won't explain fully why and what rootless means in general but will focus on t
 - [Overview of Rootless Podman: Part 2 - How User Namespaces Work in Rootless Containers](https://www.youtube.com/watch?v=Ac2boGEz2ww)
 
 ## UIDs and Namespaces
-So what are Namespaces? A namespace is a feature of the Linux kernel that allows you to segment resources [^Wiki2022]. All things that make up a running system or proces are at hom in a Namespace. You'll find Proces ID's (PID) in there as well as mounts and user ID's (UID).
-Simply said, a Namespace is a organisational container to partition resources in. Now, your Linux base system has a great way of orchestrating all these different resources based on their unique ID's and maps proces ID's that are spawned inside a container back to the host system so that the stuff that needs running (the proceses that make up the containers) can actually get resources and stay separated from each other. 
+So what are Namespaces? A namespace is a feature of the Linux kernel that allows you to segment resources [^Wiki2022]. All things that make up a running system or process are at home in a Namespace. You'll find Process ID's (PID) in there as well as mounts and user ID's (UID).
+Simply said, a Namespace is a organizational container to partition resources in. Now, your Linux base system has a great way of orchestrating all these different resources based on their unique ID's and maps process ID's that are spawned inside a container back to the host system so that the stuff that needs running (the processes that make up the containers) can actually get resources and stay separated from each other. 
 
 [^Wiki2022]: https://en.wikipedia.org/wiki/Linux_namespaces
 
@@ -71,7 +71,7 @@ rootless-container-59c496f955-zh7qd   1/1     Running   0             76s
 ```
 
 ## Troubleshooting
-Let's have a look at whats going on here. We will start with a simpel `oc status` command:
+Let's have a look at whats going on here. We will start with a simple `oc status` command:
 ```bash
 $ oc status --suggest
 ....
@@ -161,7 +161,7 @@ $ oc set serviceaccount deployment root-container ok-go-for-it
 deployment.apps/root-container serviceaccount updated
 ```
 
-And just to verrify:
+And just to verify:
 ```bash
 $ oc get pods
 NAME                                  READY   STATUS    RESTARTS   AGE
@@ -175,6 +175,6 @@ $ oc describe pod | grep -i SCC
 ```
 
 # Wrapping up
-As you can see it's pretty easy to use SAs to apply special permissions to deployments. That doesn't mean you should do it without thought. There are use cases in which it's necessary that a deployment might need to run with elevated permissions but there are a lot of other solution's than simply hanig out the permissions. So stay sharp!
+As you can see it's pretty easy to use SAs to apply special permissions to deployments. That doesn't mean you should do it without thought. There are use cases in which it's necessary that a deployment might need to run with elevated permissions but there are a lot of other solution's than simply handing out the permissions. So stay sharp!
 
 Do you want to see more of my EX280 post's? Checkout my [EX280 page](https://blog.benstein.nl/ex280/)
