@@ -29,7 +29,7 @@ There are different risks associated with running containers that default to a r
 If you want to go deeper on rootless containers, the risks and how to avoid them, [check out this video by Synk](https://www.youtube.com/watch?v=YrN49thJREY).
 
 ## Openshift to the rescue(?)
-One of the things that Openshift takes care of (in comparison with the out-of-the-box Kubernetes cluster) is that it won't allow root containers to run by default. This can lead to some issues as some containers need more acces to the underling host or special resources or that the images are not setup for rootless usage. For these cases Openshift provides Security Context Constraints to manage elevated rights for pods.
+One of the things that Openshift takes care of (in comparison with the out-of-the-box Kubernetes cluster) is that it won't allow root containers to run by default. This can lead to some issues as some containers need more access to the underling host or special resources or that the images are not setup for rootless usage. For these cases Openshift provides Security Context Constraints to manage elevated rights for pods.
 
 # SCC's and SA's
 SCC? SA? What do you mean? Let me (try) to explain:
