@@ -9,7 +9,8 @@ tags: [openshift, kubernetes, ex280] # TAG names should always be lowercase
 
 In this blog we will have a look at  "Configuring project creation" in an Openshift cluster. We will:
 - Create a Project Template
-- Add resources like a limi-range to the template
+- Add resources like a limit-range to the template
+- Disable project self-provisioning
 
 As always. We will be doing all the examples in a CRC ([Code Ready Containers](https://developers.redhat.com/products/codeready-containers/overview)) environment.
 
