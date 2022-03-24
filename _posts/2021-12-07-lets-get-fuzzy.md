@@ -50,3 +50,15 @@ When invoking `fzf`in this directory you can actively search all underlying fold
 (tip: alias that last one to something like `fbat` or `pfzf`)
 
 ![fzf with preview](/assets/images/fzf_search_preview.png)
+
+# Setting up a a fuzzy alias for history
+`fzf` has the option to replace reverser search on your shell. I don't like this because it changes the default behaivor of the zsh shell. Instead I created the following alias in my `.zshrc` shell:
+
+```shell
+## Manual alias for history search using fzf
+alias ff="print -z -- \$(cat ~/.zsh_history | cut -d ';' -f2 | fzf --height 40% --border)"
+```
+
+A great thing about this alias is that it searches your history in a small window on the shell and returns the selected result to the shell (instead of running it). This gives you the option to review a command before running it:
+
+![ff fzf alias](/assets/images/screen-20220324091518.png)
