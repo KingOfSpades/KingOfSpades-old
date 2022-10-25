@@ -1,5 +1,5 @@
 ---
-title:  "hey-for-loadtesting-http"
+title:  "hey for load testing http applications"
 date: 2022-10-25
 toc: true
 mermaid: true
@@ -8,14 +8,15 @@ tags: [cli, macos, devops] # TAG names should always be lowercase
 ---
 
 **short**
-`hey` is a HTTP load tester CLI tool to benchmark HTTP requests to a HTTP end-point. Get is at [GitHub](https://github.com/rakyll/hey)
+
+`hey` is a HTTP load tester CLI tool to benchmark HTTP requests to a HTTP end-point. Get it at [GitHub](https://github.com/rakyll/hey)
 
 ---
 
 Today we will be taking a look at a small utility called `hey`. You can use `hey` to load test HTTP applications or generate load for a web application. This comes in handy when you want to simulate use or check what your app does when it receives 1000s of requests.
 
-> [!WARNING]
-> General warning. Using a loadtest on website that you do not own or have permission to test can result in you being banned or blocked
+> General warning. Using a load test on website that you do not own or have permission to test can result in you being banned or blocked
+{: .prompt-danger }
 
 # Installation
 
@@ -25,7 +26,7 @@ Installation on macOS with `brew` is really easy, just run:
 brew install hey
 ```
 
-For other installation options, check out: [Hey Installtion](https://github.com/rakyll/hey#installation)
+For other installation options, check out: [Hey Installation](https://github.com/rakyll/hey#installation)
 
 # Usage
 
