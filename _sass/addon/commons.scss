@@ -718,7 +718,7 @@ $sidebar-display: "sidebar-display";
   ul {
     height: $tab-height * $tab-count;
     margin-bottom: 2rem;
-    padding-left: 0;
+    padding-left: 2rem;
 
     li {
       width: 100%;
@@ -896,7 +896,7 @@ $sidebar-display: "sidebar-display";
 #search-wrapper {
   display: flex;
   width: 85%;
-  border-radius: 1rem;
+  border-radius: 0.2rem;
   border: 1px solid var(--search-wrapper-border-color);
   background: var(--search-wrapper-bg);
   padding: 0 0.5rem;
